@@ -2508,17 +2508,15 @@ td
 .xl380
 	{mso-style-parent:style0;
 	font-weight:700;
-	font-family:"Wingdings 2", serif;
-	mso-font-charset:2;
+	text-align:left;
+	border:.5pt solid black;}
+.xl381
+	{mso-style-parent:style0;
+	font-weight:700;
 	text-align:center;
 	border:.5pt solid black;
 	background:yellow;
 	mso-pattern:black none;}
-.xl381
-	{mso-style-parent:style0;
-	font-weight:700;
-	text-align:left;
-	border:.5pt solid black;}
 .xl382
 	{mso-style-parent:style0;
 	font-size:28.0pt;
