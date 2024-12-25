@@ -1,7 +1,6 @@
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"
-xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
@@ -19,24 +18,22 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="filmes_arquivos/sheet006.htm">
 <link id="shLink" href="filmes_arquivos/sheet007.htm">
 <link id="shLink" href="filmes_arquivos/sheet008.htm">
-<link id="shLink" href="filmes_arquivos/sheet009.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=9;
+ var c_lTabs=8;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Filmes";
  c_rgszSh[1] = "Desenhos";
- c_rgszSh[2] = "Séries";
+ c_rgszSh[2] = "S&#65533;ries";
  c_rgszSh[3] = "Shows";
  c_rgszSh[4] = "PS2 Games";
  c_rgszSh[5] = "xBox Games";
  c_rgszSh[6] = "Blu-Ray";
- c_rgszSh[7] = "Resumo";
- c_rgszSh[8] = "Lançamentos";
+ c_rgszSh[7] = "Lan&#65533;amentos";
 
 
 
@@ -66,7 +63,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[8].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -322,7 +319,7 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="filmes_arquivos/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Séries</x:Name>
+    <x:Name>S&#65533;ries</x:Name>
     <x:WorksheetSource HRef="filmes_arquivos/sheet003.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -342,21 +339,16 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="filmes_arquivos/sheet007.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Resumo</x:Name>
+    <x:Name>Lan&#65533;amentos</x:Name>
     <x:WorksheetSource HRef="filmes_arquivos/sheet008.htm"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
-    <x:Name>Lançamentos</x:Name>
-    <x:WorksheetSource HRef="filmes_arquivos/sheet009.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="filmes_arquivos/stylesheet.css"/>
-  <x:WindowHeight>15720</x:WindowHeight>
+  <x:WindowHeight>15840</x:WindowHeight>
   <x:WindowWidth>29040</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
   <x:TabRatio>651</x:TabRatio>
-  <x:ActiveSheet>8</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -364,7 +356,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="filmes_arquivos/sheet009.htm" name="frSheet">
+ <frame src="filmes_arquivos/sheet001.htm" name="frSheet">
  <frame src="filmes_arquivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
